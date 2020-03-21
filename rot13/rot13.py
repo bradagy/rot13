@@ -14,7 +14,6 @@ def encrypt(text, n):
 
 def rot13():
     while True:
-        import pdb; pdb.set_trace()
         user_input = input('Please enter the text here: ')
         if not user_input.isalpha():
             print('The input you entered was not correct. Numbers are also '
